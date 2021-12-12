@@ -5,6 +5,6 @@ this repository is kumata's blog.
 testtesttest
 
 ```
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+echo 'export NVM_DIR=~/.nvm' >> ~/.zshrc
+echo 'source $(brew --prefix nvm)/nvm.sh' >> ~/.zshrc
 ```
